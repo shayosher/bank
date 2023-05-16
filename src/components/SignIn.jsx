@@ -35,7 +35,7 @@ export default function SignIn(props) {
 
   return (
     <div>
-        <h1>SV-BANK</h1>
+        <h1>BANK</h1>
         <input onChange={(e)=>{setUserName(e.target.value)}} type="text" placeholder='User Name'/> <br />
         <input onChange={(e)=>{setPassword(e.target.value)}} type="text" placeholder='Password'/> <br />
         <Link to={'/signup'}><h4>Create new user</h4></Link> <br />
