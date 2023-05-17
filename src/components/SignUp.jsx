@@ -41,9 +41,6 @@ export default function SignUp(props) {
         }
         else {
             props.addUser(userID, userName, password, money);
-            // {props.users.map((val) => {
-            //     return <Link to={`/costumer${val.fullName}`}></Link> 
-            // })}
             nav('/');
         }
     }

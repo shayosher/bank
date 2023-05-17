@@ -39,11 +39,6 @@ function App() {
     setUsers([...delUser]);
   }
 
-  // const deleteUser2 = (i) => {
-  //   users.splice(i-1, 1);
-  //   setUsers([...users])
-  // }
-
   return (
     <div className="App">
       <HashRouter>

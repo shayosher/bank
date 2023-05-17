@@ -29,7 +29,6 @@ export default function SignIn(props) {
         }
         else{
             nav(`/costumer${result.userName}`);
-            // nav(`/costumer${props.users[].fullName}`);צריך אינדקס כי מביא את כל האובייקט ולא רק יוזר ניים
         }
       }
 

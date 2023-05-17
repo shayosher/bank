@@ -10,15 +10,6 @@ export default function Costumer(props) {
 
     const [flag, setFlag] = useState(false);
 
-    // const check = () => {לפני שאליה לימד על אלרט שם 
-    //     alert('your osh:' + props.val.money)
-    // }
-    
-    // const action = () => {
-    //     setFlag(!flag)
-    // }
-    
-
     const show = () => {
         if (flag) {
             return <div>
